@@ -35,7 +35,7 @@
 " ------------------------------------------------------------
 " BASE CONFIG
 set number
-
+set laststatus=2
 " VUNDLE CONFIG
 
 set nocompatible              " be iMproved, required
@@ -57,10 +57,12 @@ Bundle 'kchmck/vim-coffee-script'
 Plugin 'marijnh/tern_for_vim'
 Plugin 'Raimondi/delimitMate'
 Plugin 'elzr/vim-json'
-
+Plugin 'itchyny/lightline.vim'
+Plugin 'bling/vim-bufferline'
 
 syntax enable
 " All of your Plugins must be added before the following line 
 call vundle#end()            " required
 filetype plugin indent on    " required
+
 
