@@ -36,6 +36,7 @@
 " BASE CONFIG
 set number
 set laststatus=2
+
 " VUNDLE CONFIG
 
 set nocompatible              " be iMproved, required
@@ -47,18 +48,15 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
-Plugin 'https://github.com/vim-scripts/EasyMotion'
-Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/syntastic'
-Plugin 'majutsushi/tagbar'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'kien/ctrlp.vim'
 Bundle 'kchmck/vim-coffee-script'
-Plugin 'marijnh/tern_for_vim'
 Plugin 'Raimondi/delimitMate'
 Plugin 'elzr/vim-json'
 Plugin 'itchyny/lightline.vim'
 Plugin 'bling/vim-bufferline'
+Plugin 'tpope/vim-vinegar'
 
 syntax enable
 " All of your Plugins must be added before the following line 
