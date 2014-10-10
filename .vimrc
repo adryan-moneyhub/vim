@@ -64,10 +64,8 @@ Plugin 'bling/vim-bufferline'
 Plugin 'tpope/vim-vinegar'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'yegappan/mru'
-Bundle 'Lokaltog/vim-distinguished'
 
 " All of your Plugins must be added before the following line 
 call vundle#end()            " required
 filetype plugin indent on    " required
-colorscheme distinguished
 

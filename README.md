@@ -8,9 +8,9 @@ kind of a meta-cheatsheet!
 
 ### NUMERIC COMMAND MODIFIERS
 
-one of VIM's nice features is the interoperability of the command set. 
+one of VIM's nice features is the interoperability of the command set.
 You can move to the next word using 'w', but you can jump several words
-by prepending that with a numeric modifier - i.e '5w' would move you 
+by prepending that with a numeric modifier - i.e '5w' would move you
 forward to the 5th word after the cursor
 
 
