@@ -53,5 +53,7 @@ G: move to end of document
 
 
 ## Visual Mode
+v: enter visual mode
 
+while in visual mode, use NORMAL mode commands to make area based selections
 

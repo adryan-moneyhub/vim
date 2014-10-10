@@ -65,6 +65,9 @@ Plugin 'bling/vim-bufferline'
 Plugin 'tpope/vim-vinegar'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'yegappan/mru'
+Bundle 'myusuf3/numbers.vim'
+Plugin 'Shougo/neocomplcache.vim'
+Plugin 'Lokaltog/vim-easymotion'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -75,3 +78,8 @@ filetype plugin indent on    " required
 "
 nnoremap <F3> :NumbersToggle<CR>
 nnoremap <F4> :NumbersOnOff<CR>
+
+" POST VUNDLE CONFIGURATION
+" ------------------------------------------------------------
+"
+let g:neocomplcache_enable_at_startup = 1
