@@ -33,9 +33,6 @@
 
 " PERSONAL CONFIG
 " ------------------------------------------------------------
-" BASE CONFIG
-
-" VUNDLE CONFIG
 
 set nocompatible              " be iMproved, required
 set number
@@ -47,11 +44,15 @@ set nofoldenable
 syntax enable
 filetype off                  " required
 
+" VUNDLE CONFIG
+" ------------------------------------------------------------
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
 
 " let Vundle manage Vundle, required
+call vundle#begin()
+
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'plasticboy/vim-markdown'
@@ -65,7 +66,12 @@ Plugin 'tpope/vim-vinegar'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'yegappan/mru'
 
-" All of your Plugins must be added before the following line 
+" All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+" CUSTOM KEY MAPPINGS
+" ------------------------------------------------------------
+"
+nnoremap <F3> :NumbersToggle<CR>
+nnoremap <F4> :NumbersOnOff<CR>
