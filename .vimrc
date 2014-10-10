@@ -63,6 +63,7 @@ Plugin 'itchyny/lightline.vim'
 Plugin 'bling/vim-bufferline'
 Plugin 'tpope/vim-vinegar'
 Plugin 'ntpeters/vim-better-whitespace'
+Plugin 'yegappan/mru'
 
 " All of your Plugins must be added before the following line 
 call vundle#end()            " required
