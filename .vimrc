@@ -34,12 +34,17 @@
 " PERSONAL CONFIG
 " ------------------------------------------------------------
 " BASE CONFIG
-set number
-set laststatus=2
 
 " VUNDLE CONFIG
 
 set nocompatible              " be iMproved, required
+set number
+set laststatus=2
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+set nofoldenable
+syntax enable
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
@@ -57,8 +62,8 @@ Plugin 'elzr/vim-json'
 Plugin 'itchyny/lightline.vim'
 Plugin 'bling/vim-bufferline'
 Plugin 'tpope/vim-vinegar'
+Plugin 'ntpeters/vim-better-whitespace'
 
-syntax enable
 " All of your Plugins must be added before the following line 
 call vundle#end()            " required
 filetype plugin indent on    " required
