@@ -16,21 +16,30 @@ forward to the 5th word after the cursor
 
 ## EDITING TEXT
 
+### COPYING (YANKING)
+
+y: start yank command - follow with:  
+- y: line  
+- w: word (can use numeric modifier)  
+
 ### ADDING  
 
 i: insert  
 r: replace (R - replace mode)  
 o: insert text below line (O: above)  
 a: append after cursor (A: end of line)  
+p: paste current register after cursor (P: before)
+
 
 ### DELETING
 
-d: start delete command - followed by...
+d: start delete command - follow with:  
 - n: multiplier  
 - w: word  
 - d: line  
 - h/l: delete character in direction (can use numeric modifier)  
 i.e: dd = delete line, d5d = delete 5 lines  
+
 
 
 this is  text that I will try use to test deletion
@@ -56,4 +65,4 @@ G: move to end of document
 v: enter visual mode
 
 while in visual mode, use NORMAL mode commands to make area based selections
-
+ 
