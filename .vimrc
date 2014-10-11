@@ -68,6 +68,7 @@ Plugin 'yegappan/mru'
 Bundle 'myusuf3/numbers.vim'
 Plugin 'Shougo/neocomplcache.vim'
 Plugin 'Lokaltog/vim-easymotion'
+Plugin 'tomasr/molokai'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -83,3 +84,8 @@ nnoremap <F4> :NumbersOnOff<CR>
 " ------------------------------------------------------------
 "
 let g:neocomplcache_enable_at_startup = 1
+
+" THEMES
+" ------------------------------------------------------------
+"
+colorscheme molokai
