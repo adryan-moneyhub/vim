@@ -76,16 +76,14 @@ filetype plugin indent on    " required
 
 " CUSTOM KEY MAPPINGS
 " ------------------------------------------------------------
-"
 nnoremap <F3> :NumbersToggle<CR>
 nnoremap <F4> :NumbersOnOff<CR>
 
 " POST VUNDLE CONFIGURATION
 " ------------------------------------------------------------
-"
 let g:neocomplcache_enable_at_startup = 1
 
 " THEMES
 " ------------------------------------------------------------
-"
 colorscheme molokai
+autocmd BufNewFile,BufReadPost *.cjsx set filetype=coffee
