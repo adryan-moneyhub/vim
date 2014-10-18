@@ -82,6 +82,8 @@ nnoremap <F4> :NumbersOnOff<CR>
 " POST VUNDLE CONFIGURATION
 " ------------------------------------------------------------
 let g:neocomplcache_enable_at_startup = 1
+:set directory=$HOME/.vim/swapfiles//
+autocmd FileType <desired_filetypes> autocmd BufWritePre <buffer> StripWhitespace
 
 " THEMES
 " ------------------------------------------------------------
