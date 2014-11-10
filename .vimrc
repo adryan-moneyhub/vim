@@ -83,7 +83,7 @@ nnoremap <F4> :NumbersOnOff<CR>
 " ------------------------------------------------------------
 let g:neocomplcache_enable_at_startup = 1
 :set directory=$HOME/.vim/swapfiles//
-autocmd FileType <desired_filetypes> autocmd BufWritePre <buffer> StripWhitespace
+autocmd FileType js,coffee,json autocmd BufWritePre <buffer> StripWhitespace
 
 " THEMES
 " ------------------------------------------------------------
